@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ti amo tanto</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#F4F1F6;color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F0D1A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F0D1A;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg)}
+#grid{display:grid;grid-template-columns:1fr;gap:0}
+#grid img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
+@media (min-width:700px){#grid{grid-template-columns:1fr 1fr}#grid img{aspect-ratio:4/3}}
+#love{position:fixed;inset:0;z-index:5;display:flex;align-items:center;justify-content:center;padding:1rem;text-align:center;pointer-events:none;color:#fff;font:800 clamp(2.6rem,13vw,8rem)/1 Georgia,'Times New Roman',serif;font-style:italic;letter-spacing:-.01em;text-shadow:0 2px 24px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.6)}
+</style></head><body>
+<div id="grid">
+<img src="foto/1.jpg" alt="" style="object-position:38% 40%">
+<img src="foto/2.jpg" alt="" style="object-position:50% 22%">
+<img src="foto/3.jpg" alt="" style="object-position:40% 35%">
+<img src="foto/4.jpg" alt="" style="object-position:55% 30%">
+</div>
+<div id="love">ti amo tanto</div>
+</body></html>
